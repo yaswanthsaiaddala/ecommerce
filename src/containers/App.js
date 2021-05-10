@@ -7,10 +7,6 @@ import Home from "./homepage/index";
 class App extends React.Component {
   render() {
     return <Router>
-
-      <div>
-        {/* <LoginComponent /> */}
-      </div>
       <Switch>
         <Route exact path='/' component={LoginComponent} />
         <Route exact path='/home' component={Home} />

@@ -1,6 +1,7 @@
 .login {
   height: 100vh;
   display: flex;
+  background-color: lavender;
 }
 .login-card {
   width: 400px;
@@ -9,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 16px;
+  z-index: 1;
+  box-shadow: 6px 6px rgb(0 0 0 / 10%);
 }
 .form-group {
   margin-bottom: 15px;

@@ -37,9 +37,7 @@ export default class ProductsList extends React.Component {
     console.log("jon chekx", data);
     this.setState({ productListData: data });
   }
-  pagination = (e) => {
-    console.log("pagination", e.target);
-  };
+  // sort filter starts
   sortFilter = (sortValue) => {
     let { productListData } = this.state;
     this.setState({ sort: sortValue });
@@ -55,7 +53,8 @@ export default class ProductsList extends React.Component {
 
     this.setState({ productListData: productListData });
   };
-
+  // sort filter ends
+  //on page chnage it was called
   pageChange = (pageNo, type) => {
     let { selectedLimit, productListData } = this.state;
     let newPage;
@@ -87,6 +86,8 @@ export default class ProductsList extends React.Component {
       sort: null,
     });
   };
+  //on page chnage it was called ends
+  //to handle the products added to cart
   cartHandler = (item) => {
     let { cartHandler, cartItems } = this.props;
     console.log("------item--------", item);
@@ -103,6 +104,7 @@ export default class ProductsList extends React.Component {
     cartHandler(cartItems);
     // console.log("filtered data", filteredData);
   };
+  //to handle the products added to cart ends
   render() {
     let {
       productListData,
@@ -120,6 +122,7 @@ export default class ProductsList extends React.Component {
             <p className="pagination-text">No of products to show : </p>
           </div>
           <div>
+            {/* no of product display dropdown starts */}
             <Select
               options={options}
               value={selectedLimit}
@@ -134,6 +137,8 @@ export default class ProductsList extends React.Component {
               className="pagination-selector"
             />
           </div>
+          {/* no of product display dropdown starts */}
+          {/* sor t filter starts */}
           <div className="mx-3">
             <p className="pagination-text ">
               {" "}
@@ -153,6 +158,8 @@ export default class ProductsList extends React.Component {
               </span>
             </p>
           </div>
+          {/* sor t filter ends */}
+          {/* change of page starts */}
           <div className="mlauto">
             {" "}
             <ArrowBackIosIcon
@@ -163,13 +170,10 @@ export default class ProductsList extends React.Component {
               onClick={(e) => this.pageChange(pageNo, "next")}
             />
           </div>
+          {/* change of page ends */}
         </div>
         <Row>
-          {/* <img
-            src="https://i.ibb.co/5WyZ0s6/wedding-collection-16.jpg"
-            alt="wedding-collection-16"
-            border="0"
-          /> */}
+          {/* display of products start */}
           {productListData && productListData.length > 0
             ? productListData.map((item, index) => {
                 if (index < selectedLimit.value) {
@@ -210,6 +214,7 @@ export default class ProductsList extends React.Component {
                 }
               })
             : null}
+          {/* display of products ends */}
         </Row>
       </div>
     );

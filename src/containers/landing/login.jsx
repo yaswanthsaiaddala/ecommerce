@@ -19,6 +19,8 @@ export default class LoginPage extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+
+  //it was called when input was chaged
   handleChange(event) {
     let name = event.target.name;
     let value = event.target.value;
@@ -28,20 +30,16 @@ export default class LoginPage extends React.Component {
     this.setState({ [event.target.name]: event.target.value });
   }
 
+  // it was called when form submitted
   handleSubmit = async (event) => {
-    // alert("A name was submitted: " + this.state.value);
     let { email, password, errors } = this.state;
     event.preventDefault();
-    // await this.validation("email", email);
-    // await this.validation("password", password);
     if (!errors["email"] && !errors["password"]) {
       this.setState({ loginSuccess: true });
-      // console.log("values", {
-      //   email: email,
-      //   password: password,
-      // });
     }
   };
+
+  //validation for input  fields
   validation = (name, value) => {
     let { errors } = this.state;
     switch (name) {
