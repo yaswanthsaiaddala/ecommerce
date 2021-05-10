@@ -1,0 +1,43 @@
+.image-div {
+  height: 120px;
+  text-align: center;
+  padding: 10px;
+}
+.image-div img {
+  background-size: contain;
+  height: inherit;
+}
+.product-card {
+  height: 280px;
+}
+.title {
+  margin: 20px;
+  margin-bottom: 0;
+}
+.price span {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+.price {
+  margin: 20px;
+  margin-top: 0;
+}
+.pagination-selector {
+  width: 71px;
+  margin-left: 10px;
+}
+.pagination-text {
+  margin-top: 3px;
+}
+.pagination-text span.active {
+  color: blue;
+}
+.mlauto {
+  margin-left: auto;
+}
+.cart-btn {
+  position: absolute;
+  bottom: 10px;
+  /* color: green; */
+}

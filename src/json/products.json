@@ -1,0 +1,130 @@
+[
+    {
+        "productId": 1,
+        "productImage": "https://i.ibb.co/pRpDqBG/wedding-collection-1.jpg",
+        "productTitle": "Saara Poly Silk Embellished, Woven (Unstiched)",
+        "price": "549",
+        "oldPrice": "1893",
+        "offer": "70% off"
+    },
+    {
+        "productId": 2,
+        "productImage": "https://i.ibb.co/3MSpY4c/wedding-collection-2.jpg",
+        "productTitle": "Saara Poly Silk Embellished, Woven ",
+        "price": "549",
+        "oldPrice": "1893",
+        "offer": "70% off"
+    },
+    {
+        "productId": 3,
+        "productImage": "https://i.ibb.co/kJ7CtF3/wedding-collection-3.jpg",
+        "productTitle": "Fashion Ritmo",
+        "price": "799",
+        "oldPrice": "2599",
+        "offer": "69% off"
+    },
+    {
+        "productId": 4,
+        "productImage": "https://i.ibb.co/x1kbm3f/wedding-collection-4.jpg",
+        "productTitle": "Divastri Poly Georgette Embroidered ",
+        "price": "1348",
+        "oldPrice": "5499",
+        "offer": "75% off"
+    },
+    {
+        "productId": 5,
+        "productImage": "https://i.ibb.co/ZgM1R4M/wedding-collection-5.jpg",
+        "productTitle": "Ratnavati Cotton Silk Embroidered ",
+        "price": "1319",
+        "oldPrice": "5535",
+        "offer": "76% off"
+    },
+    {
+        "productId": 6,
+        "productImage": "https://i.ibb.co/vwtw8Qd/wedding-collection-6.jpg",
+        "productTitle": "Ratnavati Cotton Silk Blend Floral Print ",
+        "price": "1349",
+        "oldPrice": "4998",
+        "offer": "73% off"
+    },
+    {
+        "productId": 7,
+        "productImage": "https://i.ibb.co/ZzsWkdD/wedding-collection-7.jpg",
+        "productTitle": "Style Amaze Poly Georgette Embellished ",
+        "price": "1699",
+        "oldPrice": "6429",
+        "offer": "73% off"
+    },
+    {
+        "productId": 8,
+        "productImage": "https://i.ibb.co/cvPZQLn/wedding-collection-8.jpg",
+        "productTitle": "Julee Crepe Embroidered ",
+        "price": "849",
+        "oldPrice": "1999",
+        "offer": "57% off"
+    },
+    {
+        "productId": 9,
+        "productImage": "https://i.ibb.co/LzrFV05/wedding-collection-9.jpg",
+        "productTitle": "Saara Crepe Printed ",
+        "price": "469",
+        "oldPrice": "1721",
+        "offer": "72% off"
+    },
+    {
+        "productId": 10,
+        "productImage": "https://i.ibb.co/m9y4H13/wedding-collection-10.jpg",
+        "productTitle": "White One Piece for Women",
+        "price": "299",
+        "oldPrice": "1299",
+        "offer": "76% off"
+    },
+    {
+        "productId": 11,
+        "productImage": "https://i.ibb.co/nwz2Y8w/wedding-collection-11.jpg",
+        "productTitle": "Orange One Piece for Women",
+        "price": "649",
+        "oldPrice": "1299",
+        "offer": "50% off"
+    },
+    {
+        "productId": 12,
+        "productImage": "https://i.ibb.co/XWhJ1vQ/wedding-collection-12.jpg",
+        "productTitle": "Black One Piece for Women",
+        "price": "330",
+        "oldPrice": "1199",
+        "offer": "72% off"
+    },
+    {
+        "productId": 13,
+        "productImage": "https://i.ibb.co/kSS6160/wedding-collection-13.jpg",
+        "productTitle": "Printed Women Round Neck Blue T-Shirt",
+        "price": "446",
+        "oldPrice": "499",
+        "offer": "10% off"
+    },
+    {
+        "productId": 14,
+        "productImage": "https://i.ibb.co/TL82L3m/wedding-collection-14.jpg",
+        "productTitle": "Color Block Women Round Neck Multicolor T-Shirt",
+        "price": "299",
+        "oldPrice": "999",
+        "offer": "70% off"
+    },
+    {
+        "productId": 15,
+        "productImage": "https://i.ibb.co/4KrCNnY/wedding-collection-15.jpg",
+        "productTitle": "Full Sleeve Printed Men Jacket",
+        "price": "629",
+        "oldPrice": "1999",
+        "offer": "68% off"
+    },
+    {
+        "productId": 16,
+        "productImage": "https://i.ibb.co/5WyZ0s6/wedding-collection-16.jpg",
+        "productTitle": "Full Sleeve Solid Men Jacket",
+        "price": "699",
+        "oldPrice": "1599",
+        "offer": "56% off"
+    }
+]

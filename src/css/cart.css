@@ -1,0 +1,11 @@
+.cart .title {
+  font-family: 400;
+}
+.cart img {
+  height: 100px;
+}
+.cart-item {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}

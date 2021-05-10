@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  display: flex;
+}
+.login-card {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  margin-bottom: 10px;
+}
+.form-group .error {
+  color: red;
+  font-size: 12px;
+}
+.navbar-expand-lg {
+  /* justify-content: space-between; */
+}
+nav {
+  /* justify-content: space-between; */
+}
+.nav-home {
+  margin-right: auto !important;
+}
+.count-badge {
+  background-color: blue;
+  position: relative;
+  top: -11px;
+  left: -24px;
+}
